@@ -19,8 +19,8 @@ $ docker-compose up -d
    - http://localhost:8080/products/nocache/{id}
  - Invalidate a specific product cache
    - http://localhost:8080/products/invalidate/{id}
- - Invalidate a all products cache
-   - http://localhost:8080/products/invalidate/{id}
+ - Invalidate all products cache
+   - http://localhost:8080/products/invalidate
 
 ### Benmark Result
 - Without cache. Webserver handle zip process
